@@ -3,12 +3,13 @@
 #main {
   background-image: url("mainpagephoto.jpg");
   background-size: cover;
-  height: 100vh;
 }
 
 #content {
-  font-family: Roboto;
-  background-color: rgba(255, 255, 255, 0.3);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #231f20;
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 14px;
   border-radius: 10px;
   margin: 25px auto;
@@ -18,6 +19,7 @@
   text-align: center;
   font-weight: 600;
   border-bottom: 1px solid;
+  font-family: "Open Sans", sans-serif;
 }
 
 #linkList {
