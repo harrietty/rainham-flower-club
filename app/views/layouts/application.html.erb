@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rainham Flower Club</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'normalize', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav>Rainham Flower Club</nav>
+    <div id="main" class="container-fluid">
+      <div class="row">
+        <div id="content" class="col-md-8">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Copyright Rainham Flower Club <%= Time.new.year %>
+    </footer>
+  </body>
+</html>

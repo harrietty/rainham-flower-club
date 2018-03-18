@@ -1,0 +1,42 @@
+@import "partials/colors";
+
+#main {
+  background-image: url("mainpagephoto.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#content {
+  font-family: Roboto;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 14px;
+  border-radius: 10px;
+  margin: 25px auto;
+}
+
+.nextMeeting {
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 1px solid;
+}
+
+#linkList {
+  text-align: center;
+  list-style: none;
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 30px;
+  li {
+    line-height: 41px;
+    a:link, a:visited {
+      color: $darkPurple;
+    }
+  }
+}
+
+footer {
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  color: $palePink;
+  background-color: $darkGrey;
+}
