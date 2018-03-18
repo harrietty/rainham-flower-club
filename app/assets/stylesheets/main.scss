@@ -36,9 +36,16 @@
 }
 
 footer {
-  height: 120px;
-  line-height: 120px;
-  text-align: center;
-  color: $palePink;
   background-color: $darkGrey;
+  text-align: center;
+  padding: 10px;
+  h4, p {
+    text-align: center;
+    color: $palePink;
+    font-family: "Roboto", sans-serif;
+  }
+  iframe {
+    height: 300px;
+    width:350px;
+  }
 }
