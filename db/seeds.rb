@@ -3,10 +3,10 @@
 Gallery.delete_all
 Image.delete_all
 
-hearts_and_flowers = Gallery.create(title: 'Hearts and Flowers: Feb 2017')
-area_show = Gallery.create(title: 'Area Show, May 2016')
-national_flower_day = Gallery.create(title: 'National Flower Arranging Day, May 2016')
-dem_and_dine = Gallery.create(title: 'Dem and Dine: Nov 2015')
+hearts_and_flowers = Gallery.create(title: 'Hearts and Flowers: Feb 2017', cover_photo: 'haf1.jpg')
+area_show = Gallery.create(title: 'Area Show, May 2016', cover_photo: 'show1.jpg')
+national_flower_day = Gallery.create(title: 'National Flower Arranging Day, May 2016', cover_photo: 'day1.jpg')
+dem_and_dine = Gallery.create(title: 'Dem and Dine: Nov 2015', cover_photo: 'dd1.jpg')
 
 # For each gallery, create records for the associated images
 
