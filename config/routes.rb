@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   get 'about', to: 'about#index'
+
+  get 'gallery', to: 'gallery#index'
 end

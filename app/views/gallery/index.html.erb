@@ -1,0 +1,14 @@
+<div id="gallery">
+  <h2>Gallery</h2>
+  <div class="d-flex justify-content-around flex-wrap">
+    <% @galleries.each do |gallery| %>
+      <a href="/gallery/<%= gallery.id %>">
+        <div class="galleryItem">
+          <div class="coverImgWithCrop" style="background-image:url('/gallery_photos/<%= gallery.cover_photo %>')">
+          </div>
+        </a>
+        <%= gallery.title %>
+      </div>
+    <% end %>
+  </div>
+</div>
