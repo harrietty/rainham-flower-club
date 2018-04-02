@@ -1,0 +1,9 @@
+<div id="gallery">
+  <h2><%= @gallery.title %></h2>
+  <div>
+    <% @gallery.images.each do |img| %>
+      <img class="galleryImg" src="/gallery_photos/<%= img.filename %>" alt="<%= img.alt_text %>">
+      <p class="caption"><%= img.caption %></p>
+    <% end %>
+  </div>
+</div>
