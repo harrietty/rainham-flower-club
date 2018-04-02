@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 20180401140619) do
     t.string "alt_text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "path"
+    t.string "filename"
     t.index ["gallery_id"], name: "index_images_on_gallery_id"
   end
 

@@ -11,17 +11,17 @@ dem_and_dine = Gallery.create(title: 'Dem and Dine: Nov 2015', cover_photo: 'dd1
 # For each gallery, create records for the associated images
 
 ['day1', 'day2', 'day3'].each do |img|
-  national_flower_day.images << Image.new(path: "gallery_photos/#{img}.jpg")
+  national_flower_day.images << Image.new(filename: "#{img}.jpg", caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", alt_text: "Lorem ipsum")
 end
 
 ['dd1', 'dd2', 'dd3', 'dd4', 'dd5', 'dd6', 'dd7'].each do |img|
-  dem_and_dine.images << Image.new(path: "gallery_photos/#{img}.jpg")
+  dem_and_dine.images << Image.new(filename: "#{img}.jpg", caption: "Morbi arcu elit, convallis lobortis nisi in, iaculis volutpat justo", alt_text: "Lorem ipsum")
 end
 
 ['haf1', 'haf2', 'haf3', 'haf4'].each do |img|
-  hearts_and_flowers.images << Image.new(path: "gallery_photos/#{img}.jpg")
+  hearts_and_flowers.images << Image.new(filename: "#{img}.jpg", caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", alt_text: "Lorem ipsum")
 end
 
 ['show1', 'show2', 'show3', 'show4', 'show5', 'show6', 'show7'].each do |img|
-  area_show.images << Image.new(path: "gallery_photos/#{img}.jpg")
+  area_show.images << Image.new(filename: "#{img}.jpg", caption: "Morbi arcu elit, convallis lobortis nisi in, iaculis volutpat justo", alt_text: "Lorem ipsum")
 end
